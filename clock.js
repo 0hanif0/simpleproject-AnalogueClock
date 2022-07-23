@@ -6,7 +6,7 @@ radius = radius * 0.90
 drawClock();
 
 function drawClock() {
-    ctx.arc(0,0,radius,0,2*Math.PI);
-    ctx.fillstyle ="White";
+    ctx.arc(0, 0, radius, 0, 2 * Math.PI);
+    ctx.fillstyle = "White";
     ctx.fill();
 }
